@@ -5,7 +5,7 @@ from langchain.schema import Document
 from langchain.document_transformers import Html2TextTransformer
  
 # Replace 'input.mbox' with your MBOX file name
-mbox_file = '../Mail/Spam.mbox'
+mbox_file = '../Mail//Spam.mbox'
  
 mbox = mailbox.mbox(mbox_file)
 html2text = Html2TextTransformer()
