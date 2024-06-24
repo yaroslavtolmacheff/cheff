@@ -8,7 +8,7 @@ from langchain.document_transformers import Html2TextTransformer
 mbox_file = '../Mail//Spam.mbox'
  
 mbox = mailbox.mbox(mbox_file)
-html2text = Html2TextTransformer()
+html2text = Html1TextTransformer()
  
 for i, message in enumerate(mbox):
     print(i)
