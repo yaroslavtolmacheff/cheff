@@ -2,7 +2,7 @@
 cheff
 import mailbox
 from langchain.schema import Document
-from langchain.document_transformers import Html2TextTransformer
+from langchain.document_transformers import Html4TextTransformer
  
 # Replace 'input.mbox' with your MBOX file name
 mbox_file = '../Mail//Spam.mbox'
