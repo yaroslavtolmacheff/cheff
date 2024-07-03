@@ -4,7 +4,7 @@ import mailbox
 from langchain.schema import Document
 from langchain.document_transformers import Html4TextTransformer
  
-# Replace 'input.mbox' with your MBOX file name
+# Replace 'input.mbox' with your MBOXL file name
 mbox_file = '../Mail//Spam.mbox'
  
 mbox = mailbox.mbox(mbox_file)
